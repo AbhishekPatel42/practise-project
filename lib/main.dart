@@ -1,5 +1,6 @@
 import 'package:apiproject/pages/Googlepe.dart';
 import 'package:apiproject/pages/paginationApi.dart';
+import 'package:apiproject/pages/websockets.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:apiproject/pages/CreateAccountApi.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // Set initial page here, consider using named routes if needed
-      home: Googlepe(),
+      home: WebSocketExample(),
       // Uncomment this if you want to define named routes
 
       // getPages: [
